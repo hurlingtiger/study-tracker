@@ -249,7 +249,7 @@ export default function App() {
     return (
       <div className="flex min-h-screen items-center justify-center bg-slate-50 dark:bg-slate-900 p-4 transition-colors">
         <div className="w-full max-w-md rounded-2xl bg-white dark:bg-slate-800 p-8 shadow-lg border border-slate-100 dark:border-slate-700">
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">StudyPulse</h1>
+          <h1 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">Caoimhes An Imp</h1>
           <p className="text-sm text-slate-500 dark:text-slate-400 mb-6">{isRegistering ? 'Create your account' : 'Sign in to access your modules'}</p>
           
           {authError && (
